@@ -1,6 +1,6 @@
-# Kaggle ML stack
+# DS/ML stack
 
-Master Workflow and codes for Kaggle competitions
+Master Workflow and codes for Data Science
 
 ## Prerequisites
 
