@@ -1,0 +1,41 @@
+
+Typical flow:
+----------------
+Data Parsing -> EDA -> Diagnostics -> (Feature Eng. <--> Modeling <--> Training/Testing)
+
+
+Data Leakage: 
+--------------
+    1. Target Leakage : Any feature available during training but won't be, while testing.
+
+    2. Train-Test contamination : Features Pre-processing (scaling or imputation) done on validation data (val should be 
+    treated separately) 
+     
+https://www.kaggle.com/shubhamsoni45/exercise-data-leakage/edit
+
+
+Understanding Feature from Model 
+---------------------------------
+Book to Read : https://christophm.github.io/interpretable-ml-book/
+
+https://academic.oup.com/bioinformatics/article/26/10/1340/193348
+
+
+    1. PermutationImportance : check importance and find features which if coupled, could give boost to model accuracy 
+    https://www.kaggle.com/dansbecker/permutation-importance
+
+    2. PDP: How a feature affects prediction. Use to investigate more about high importance or suspicious features.
+    https://www.kaggle.com/dansbecker/partial-plots
+
+    3. SHAP values: Most useful
+    https://github.com/slundberg/shap
+    https://www.kaggle.com/dansbecker/shap-values
+    https://www.kaggle.com/shubhamsoni45/exercise-shap-values/edit
+    https://towardsdatascience.com/one-feature-attribution-method-to-supposedly-rule-them-all-shapley-values-f3e04534983d
+    https://www.youtube.com/watch?v=0yXtdkIL3Xk
+
+    4. LIME
+    https://www.youtube.com/watch?v=C80SQe16Rao
+
+
+

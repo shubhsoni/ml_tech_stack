@@ -1,0 +1,7 @@
+
+1. understand more about features from trained model
+
+    https://www.kaggle.com/learn/machine-learning-explainability
+
+2. understand data leakage
+    https://www.kaggle.com/alexisbcook/data-leakage
